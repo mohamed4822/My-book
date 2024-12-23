@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: rgb(238, 226, 226);
+    padding: 10px 20px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Logo img {
+   
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: rgb(241, 240, 240);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+.head {
+    background-color: #6d4d3b;
+    text-align: center;
+    padding: 20px 10px;
+}
+.head h2 {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+    
+}
+.container {
+    display: flex;
+}
+
+
+/* Categories Section */
+.left_par {
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f0eded;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.left_par h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #343a40;
+    position: relative;
+
+}
+
+.left_par h2::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #333;
+    margin: 8px auto 0;
+}
+
+.left_par a {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #151515;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.left_par a:hover {
+    text-decoration: none;
+    background-color: #6d4d3b;
+    border-radius:15px ;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+tr:nth-child(odd) {
+    background-color: #f0eded;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.star {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.star.selected {
+    color: #ccd12b;
+}
+
+.feedback {
+    text-align: center;
+    margin-top: 10px;
+}
+.Anchor{
+    background-color: #6d4d3b;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Anchor a {
+    text-decoration: none;
+    color: white;
+}
+
