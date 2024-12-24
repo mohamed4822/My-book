@@ -127,27 +127,7 @@ img {
 tr:nth-child(odd) {
     background-color: #f0eded;
 }
-.rating {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    font-size: 2rem;
-    cursor: pointer;
-}
 
-.star {
-    color: gray;
-    transition: color 0.3s ease;
-}
-
-.star.selected {
-    color: #ccd12b;
-}
-
-.feedback {
-    text-align: center;
-    margin-top: 10px;
-}
 .Anchor{
     background-color: #6d4d3b;
     align-items: center;
